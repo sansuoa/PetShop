@@ -23,4 +23,4 @@
 
 ![image](https://github.com/sansuoa/PetShop/blob/master/picture/3.png)
 
-很丑，不过应付设计作业啥的足够了，就这样.
+很丑，不过应付设计作业啥的足够了，记得把代码里的毕业设计.sql创建一下，运行中找问题吧。
