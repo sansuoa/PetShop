@@ -15,4 +15,10 @@
   
   = 这个东西
   
+  以下是项目的一些图片
+  
 ![image](https://github.com/sansuoa/PetShop/blob/master/picture/1.png)
+
+![image](https://github.com/sansuoa/PetShop/blob/master/picture/2.png)
+
+![image](https://github.com/sansuoa/PetShop/blob/master/picture/3.png)
