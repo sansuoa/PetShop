@@ -15,4 +15,4 @@
   
   = 这个东西
   
-![image]https://github.com/sansuoa/PetShop/blob/master/picture/1.png
+![image](https://github.com/sansuoa/PetShop/blob/master/picture/1.png)
