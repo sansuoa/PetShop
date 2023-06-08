@@ -1,0 +1,8 @@
+{
+  "name": "宠物商城（十版）",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "bignumber.js": "^9.1.1"
+  }
+}

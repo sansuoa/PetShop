@@ -1,0 +1,11 @@
+com\ZHL\TaTa\controller\OrdersControllerTest.class
+com\ZHL\TaTa\service\OrdersServiceTest.class
+com\ZHL\TaTa\ApplicationContest.class
+com\ZHL\TaTa\controller\NoticeControllerTest.class
+com\ZHL\TaTa\service\NoticeServiceTest.class
+com\ZHL\TaTa\service\PetSaleServiceTest.class
+com\ZHL\TaTa\service\UserServiceTest.class
+com\ZHL\TaTa\service\AddressServiceTest.class
+com\ZHL\TaTa\service\CartServiceTest.class
+com\ZHL\TaTa\mapper\OrdersMapperTest.class
+com\ZHL\TaTa\mapper\UserMapperTest.class

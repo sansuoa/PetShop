@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="宠物商城（四版）" />
+        <module name="宠物商城（十版）" />
+        <module name="PetSale" />
+        <module name="宠物商城（六版）" />
+        <module name="宠物商城（五版）" />
+        <module name="宠物商城（八版)" />
+        <module name="project" />
+        <module name="宠物商城（七版）" />
+        <module name="宠物商城（二版）" />
+        <module name="宠物商城" />
+        <module name="宠物商城(初版)" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PetSale" options="-parameters" />
+      <module name="project" options="-parameters" />
+      <module name="宠物商城" options="-parameters" />
+      <module name="宠物商城(初版)" options="-parameters" />
+      <module name="宠物商城（七版）" options="-parameters" />
+      <module name="宠物商城（二版）" options="-parameters" />
+      <module name="宠物商城（五版）" options="-parameters" />
+      <module name="宠物商城（八版)" options="-parameters" />
+      <module name="宠物商城（六版）" options="-parameters" />
+      <module name="宠物商城（十版）" options="-parameters" />
+      <module name="宠物商城（四版）" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<!--edge浏览器H5兼容设置-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>宠物商城</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--导入核心文件-->
+		<script src="../bootstrap3/js/holder.js"></script>
+		<link href="../bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css">
+		<script src="../bootstrap3/jquery-1.9.1.min.js"></script>
+		<script src="../bootstrap3/js/bootstrap.js"></script>
+		<!-- 字体图标 -->
+		<link rel="stylesheet" href="../bootstrap3/font-awesome-4.7.0/css/font-awesome.css" />
+		<link rel="stylesheet" type="text/css" href="../css/layout.css" />
+		<link rel="stylesheet" type="text/css" href="../css/top.css" />
+		<link rel="stylesheet" type="text/css" href="../css/footer.css" />
+		<link rel="stylesheet" type="text/css" href="../css/orderConfirm.css" />
+
+	</head>
+
+	<body>
+		<!--头部-->
+		<header class="header">
+			<div class="row">
+				<div class="col-md-3">
+					<a href="index.html">
+						<img src="../images/index/stumalllogo.png" />
+					</a>
+				</div>
+				<div class="col-md-6 title-container">
+					<h1 id="page-title">它它宠物商城</h1>
+				</div>
+				<!--快捷选项-->
+				<div class="col-md-9 top-item">
+					<ul class="list-inline pull-right">
+						<li><a href="orders.html"><span class="fa fa-file-text"></span>&nbsp;订单</a></li>
+						<li class="li-split">|</li>
+						<li><a href="cart.html"><span class="fa fa-cart-plus"></span>&nbsp;购物车</a></li>
+						<li class="li-split">|</li>
+						<li>
+							<!--下列列表按钮 ：管理-->
+							<div class="btn-group">
+								<button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+									<span id="top-dropdown-btn"><span class="fa fa-gears"></span>&nbsp;管理 <span class="caret"></span></span>
+								</button>
+								<ul class="dropdown-menu top-dropdown-ul" role="menu">
+									<li><a href="password.html">修改密码</a></li>
+									<li><a href="userdata.html">个人资料</a></li>
+									<li><a href="upload.html">上传头像</a></li>
+									<li><a href="address.html">收货管理	</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="li-split">|</li>
+						<li><a href="login.html"><span class="fa fa-user"></span>&nbsp;登录</a></li>
+						<li id="user">您好，欢迎光临宠物商城！</li>
+						<li><a href="upload.html"><img id="img-avatar" src="../images/index/user.jpg" class="img-responsive" /></a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!--导航 -->
+		<!--分割导航和顶部-->
+		<div class="row top-nav">
+			<div class="col-md-6">
+				<ul class="nav nav-pills">
+					<li>
+						<a href="#"></a>
+					</li>
+					<li class="active"><a href="index.html"><span class="fa fa-home"></span></a></li>
+					<li><a href="listSale.html">商品</a></li>
+					<li><a href="listLeave.html">礼包</a></li>
+					<li><a href="cart.html">购物车</a></li>
+					<li><a href="orders.html">订单</a></li>
+					<li><a href="password.html">修改信息</a></li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<form action="search.html" class="form-inline pull-right" role="form">
+					<div class="form-group">
+						<input type="text" class="form-control" id="search" name="search" placeholder="请输入商品名称进行搜索">
+					</div>
+					<button type="submit" class="btn btn-default btn-sm"><span class="fa fa-search"></span></button>
+				</form>
+			</div>
+		</div>
+		<!--头部结束-->
+		<!--导航结束-->
+		<div class="container">
+			<div class="col-md-offset-1 col-md-10">
+				<div class="col-md-4">
+					<div class="col-md-12 order-bar-undo">
+						1.确认订单信息
+						<span class="pull-right"><span class="fa fa-chevron-right"></span></span>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="col-md-12 order-bar-active">
+						2.在线支付
+						<span class="pull-right"><span class="fa fa-chevron-right"></span></span>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="col-md-12 order-bar-undo">
+						3.付款成功
+					</div>
+				</div>
+				<div class="col-md-12">
+					<form role="form">
+						<div class="form-group">
+							<label for="name">
+								<p>选择支付方式：</p>
+							</label>
+							<div class="text-center">
+								<label class="radio-inline">
+									<input type="radio" name="optionsRadios" id="optionsRadios1" checked="checked"> 支付宝
+								</label>
+								<label class="radio-inline">
+									<input type="radio" name="optionsRadios" id="optionsRadios2"> 微信
+								</label>
+								<label class="radio-inline">
+									<input type="radio" name="optionsRadios" id="optionsRadios3"> 网银
+								</label>
+								<label class="radio-inline">
+									<input type="radio" name="optionsRadios" id="optionsRadios4"> 货到付款
+								</label>
+							</div>
+						</div>
+						<div>订单号<span name="orderId"></span>，支付金额¥<span name="totalPrice"></span>，收款方它它宠物商城</div>
+						<div class="pay-bar">
+							<a href="cart.html">返回购物车</a>
+							<span class="pull-right">¥<span name="remainingPrice"></span> <input type="button" value="确认付款" class="btn btn-primary btn-lg link-success"/></span>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-widget">
+							<h3 class="widget-title">关于我们</h3>
+							<p>我们提供正品保障的宠物用品，让你的宠物生活更愉快。欢迎加入我们的爱宠家庭。</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-widget">
+							<h3 class="widget-title">品类丰富</h3>
+							<ul class="footer-link">
+								<li><a href="listSale2.html?categoryId=16">猫粮</a></li>
+								<li><a href="listSale2.html?categoryId=17">狗粮</a></li>
+								<li><a href="listSale2.html?categoryId=18">宠物玩具</a></li>
+								<li><a href="listSale2.html?categoryId=19">宠物用品</a></li>
+								<li><a href="listSale2.html?categoryId=20">宠物服饰</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-widget">
+							<h3 class="widget-title">优质服务</h3>
+							<ul class="footer-link">
+								<li><a href="shopPlan.html">购物指南</a></li>
+								<li><a href="paymentQE.html">支付问题</a></li>
+								<li><a href="saleBack.html">售后服务</a></li>
+								<li><a href="returnSale.html">退换货政策</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-widget">
+							<h3 class="widget-title">联系我们</h3>
+							<ul class="footer-contact">
+								<li><i class="fas fa-map-marker-alt"></i> </li>
+								<li><i class="fas fa-phone"></i> </li>
+								<li><i class="fas fa-envelope"></i> </li>
+								<li><i class="fas fa-clock"></i> 09:00-18:30 (周一到周日)</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- 返回顶部按钮 -->
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<a href="#" class="back-to-top">返回顶部<i class="fas fa-chevron-up"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<p>© 2023 爱宠20年. All Rights Reserved.</p>
+					</div>
+					<div class="col-md-6">
+						<div class="footer-payment">
+							<img src="img/payment.jpg" alt="Payment Method" width="80" height="auto">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</footer>
+		<script type="text/javascript">
+			$(function() {
+				// 获取GET参数
+				var params = getParams();
+				var orderId = params.orderId;
+				var totalPrice = params.totalPrice;
+				var remainingPrice = params.totalPrice;
+
+				if (!orderId || !totalPrice) {
+					alert("订单号和总金额未指定，将返回购物车！");
+					location.href = "cart.html";
+				}
+
+				// 将订单号和支付金额填充到HTML中的响应位置
+				$("[name=orderId]").text(orderId);
+				$("[name=totalPrice]").text(totalPrice/100);
+				$("[name=remainingPrice]").text(remainingPrice/100);
+
+				// 点击确认付款按钮
+				$(".link-success").click(function() {
+					var orderId = params.orderId;
+					var totalPrice = $("[name=totalPrice]").text();
+					var payType = $("input[name=optionsRadios]:checked").val();
+
+					var confirmed = confirm("确认支付？");
+					if (!confirmed) {
+						return;
+					}
+					// 向服务器发送支付请求
+					$.ajax({
+						url: "/orders/pay",
+						data: {
+							orderId: orderId,
+							totalPrice:totalPrice,
+						},
+						type: "POST",
+						dataType: "JSON",
+						success: function(json) {
+							if (json.state == 200) {
+								alert("支付成功！")
+								location.href = "paySuccess.html?orderId=" + orderId + "&totalPrice=" + totalPrice;
+							} else {
+								alert(json.message);
+								location.href = "payFail.html?orderId=" + orderId;
+							}
+						},
+						error: function(xhr) {
+							alert("HTTP响应码：" + xhr.status);
+						}
+					});
+				});
+
+				// 获取GET参数的函数
+				function getParams() {
+					var search = location.search.substring(1);
+					var params = search.split("&");
+					var obj = {};
+					for (var i = 0; i < params.length; i++) {
+						var pair = params[i].split("=");
+						obj[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1]);
+					}
+					return obj;
+				}
+			});
+		</script>
+	</body>
+
+</html>

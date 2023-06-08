@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--edge浏览器H5兼容设置-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="shortcut icon" href="../favicon.ico">
+		<title>宠物商城</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--导入核心文件-->
+		<script src="../bootstrap3/js/holder.js"></script>
+		<link href="../bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css">
+		<script src="../bootstrap3/jquery-1.9.1.min.js"></script>
+		<script src="../bootstrap3/js/bootstrap.js"></script>
+		<!-- 字体图标 -->
+		<link rel="stylesheet" href="../bootstrap3/font-awesome-4.7.0/css/font-awesome.css" />
+		<link rel="stylesheet" type="text/css" href="../css/top.css" />
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />
+		<link rel="stylesheet" type="text/css" href="../css/layout.css" />
+		<link rel="stylesheet" type="text/css" href="../css/reg.css" />
+		<link rel="stylesheet" type="text/css" href="../css/footer.css" />
+	</head>
+	<body>
+		<!--主体-->
+		<div class="container mycontent text-left">
+			<!--透明层 -->
+			<div class="regDiv">
+				<p>新用户注册</p>
+				<!--表单开始-->
+				<form id="form-reg" class="form-horizontal" role="form">
+					<!--用户名-->
+					<div class="form-group">
+						<label class="col-md-3 control-label" for="username">名字：</label>
+						<div class="col-md-8">
+							<input name="username" type="text" class="form-control" id="username" placeholder="请输入用户名">
+							<label class="text-muted small" for="username">请输入6到20个字符的用户名</label>
+						</div>
+					</div>
+					<!--密码-->
+					<div class="form-group">
+						<label class="col-md-3 control-label" for="password"> 密码：</label>
+						<div class="col-md-8">
+							<input name="password" type="password" class="form-control" id="password" placeholder="请输入密码">
+							<label class="text-muted small" for="password">请输入6个或更多字符的密码，需包含至少一个字母</label>
+						</div>
+					</div>
+
+					<!--确认密码-->
+					<div class="form-group">
+						<label class="col-md-3 control-label" for="password2"> 确认密码：</label>
+						<div class="col-md-8">
+							<input name="password2" type="password" class="form-control" id="password2" placeholder="请再次输入密码">
+							<label class="text-muted small" for="password2">请再次输入密码以验证一致性</label>
+						</div>
+					</div>
+					<!--提交按钮-->
+					<div class="form-group">
+						<label class="col-md-3 control-label"></label>
+						<div class="col-md-8">
+							<input id="btn-reg" class="btn btn-primary" type="button" value="立即注册" />
+							<span class="pull-right"><small>已经有账号？</small><a href="login.html">登录</a></span>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-widget">
+							<h3 class="widget-title">关于我们</h3>
+							<p>我们提供正品保障的宠物用品，让你的宠物生活更愉快。欢迎加入我们的爱宠家庭。</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-widget">
+							<h3 class="widget-title">品类丰富</h3>
+							<ul class="footer-link">
+								<li><a href="listSale2.html?categoryId=16">猫粮</a></li>
+								<li><a href="listSale2.html?categoryId=17">狗粮</a></li>
+								<li><a href="listSale2.html?categoryId=18">宠物玩具</a></li>
+								<li><a href="listSale2.html?categoryId=19">宠物用品</a></li>
+								<li><a href="listSale2.html?categoryId=20">宠物服饰</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-widget">
+							<h3 class="widget-title">优质服务</h3>
+							<ul class="footer-link">
+								<li><a href="shopPlan.html">购物指南</a></li>
+								<li><a href="paymentQE.html">支付问题</a></li>
+								<li><a href="saleBack.html">售后服务</a></li>
+								<li><a href="returnSale.html">退换货政策</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-widget">
+							<h3 class="widget-title">联系我们</h3>
+							<ul class="footer-contact">
+								<li><i class="fas fa-map-marker-alt"></i> </li>
+								<li><i class="fas fa-phone"></i> </li>
+								<li><i class="fas fa-envelope"></i> </li>
+								<li><i class="fas fa-clock"></i> 09:00-18:30 (周一到周日)</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- 返回顶部按钮 -->
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<a href="#" class="back-to-top">返回顶部<i class="fas fa-chevron-up"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<p>© 2023 爱宠20年. All Rights Reserved.</p>
+					</div>
+					<div class="col-md-6">
+						<div class="footer-payment">
+							<img src="img/payment.jpg" alt="Payment Method" width="80" height="auto">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</footer>
+		<script type="text/javascript">
+			$("#btn-reg").click(function() {
+				var username = $("#form-reg [name='username']").val().trim(),
+						password = $("#form-reg [name='password']").val().trim(),
+						password2 = $("#form-reg [name='password2']").val().trim();
+
+				// 判断用户名和密码是否符合要求
+				var usernameReg = /^.{6,20}$/;
+				var passwordReg = /^(?=.*[a-zA-Z]).{6,}$/;
+				if (!usernameReg.test(username)) {
+					alert("用户名长度不能小于6");
+					return false;
+				}
+				if (!passwordReg.test(password)) {
+					alert("密码长度不能小于6,且必须包含至少一个字母");
+					return false;
+				}
+				if (password !== password2) {
+					alert("两次输入密码不一致！");
+					return false;
+				}
+
+				$.ajax({
+					url: "/user/reg",
+					type: "POST",
+					data: $("#form-reg").serialize(),
+					dataType: "json",
+					success: function(json) {
+						if (json.state == 200) {
+							alert("注册成功！");
+							location.href = "index.html";
+						} else {
+							alert("注册失败！" + json.message);
+						}
+					}
+				});
+			});
+		</script>
+	</body>
+
+</html>

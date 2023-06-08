@@ -1,0 +1,86 @@
+/*表格文字居中*/
+.orders-table {
+	text-align: center;
+}
+/*表头文字居中*/
+.orders-table th {
+	text-align: center;
+}
+/*数量数字居中*/
+.orders-table input {
+	text-align: center;
+}
+/*每行间隙*/
+.orders-table tbody tr {
+	border-top: 1px dashed #cccccc;
+}
+.img-container {
+	width: 200px; /* 设置容器宽度，根据需要调整 */
+	height: 150px; /* 设置容器高度，根据需要调整 */
+	overflow: hidden; /* 隐藏超出容器大小的部分 */
+	margin: 0 auto; /* 水平居中 */
+}
+
+.img-container img {
+	width: 100%; /* 图片宽度始终占满容器 */
+	height: auto; /* 高度自适应，保持图片比例 */
+}
+.text-container {
+	max-width: 200px; /* 设置容器最大宽度 */
+}
+
+.text-left {
+	display: inline-block; /* 将元素转换成内联块级元素 */
+	vertical-align: top; /* 顶部对齐 */
+	margin: 0; /* 去除默认边距 */
+	padding: 0; /* 去除默认内边距 */
+}
+
+.sale-title {
+	font-weight: bold; /* 设置标题粗体 */
+}
+
+.sale-amount {
+	float: right; /* 右浮动，实现价格右对齐 */
+	font-weight: bold; /* 设置价格粗体 */
+	color: red; /* 设置价格颜色 */
+}
+.orders-table td, .orders-table th {
+	text-align: center;
+	padding: 10px;
+	vertical-align: middle;
+	border: 1px solid #ccc;
+}
+
+.orders-table th {
+	background-color: #f5f5f5;
+	font-weight: normal;
+}
+
+.orders-table tbody tr:hover {
+	background-color: #f5f5f5;
+}
+
+.total-price {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+span {
+	font-size: 16px;
+}
+
+#sale {
+	background-color: yellow;
+}
+
+/*.orders {*/
+/*	margin-bottom: 100px; !* 添加底部间隔 *!*/
+/*}*/
+.order {
+	border-top: 1px dashed #ccc;
+	border-bottom: 1px dashed #ccc;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}

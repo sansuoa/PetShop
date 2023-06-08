@@ -1,0 +1,109 @@
+.product-item {
+    width: 24%;
+    margin: 1%;
+}
+#product-list {
+    width: 100%;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+}
+/* 使用浮动属性使它们排成一行 */
+.product-item {
+    float: left;
+}
+.nav-item {
+    font-size: 16px;
+}
+.nav-link {
+    color: #333;
+    font-weight: bold;
+}
+.nav-link:hover {
+    background-color: #fff;
+    color: #f40;
+}
+#product-table-caption {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f7f7f7;
+    color: #333;
+}
+.product-item img {
+    cursor: pointer;  /* 鼠标悬停指针样式为手形 */
+    border: none;  /* 去掉图片的边框 */
+}
+.product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-item img {
+    width: 100%;
+}
+
+.product-item h3 {
+    margin: 0.5rem 0;
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+.product-item p {
+    margin: 0.25rem 0;
+    text-align: center;
+}
+
+.product-item span {
+    margin: 0.5rem 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+.product-item h3 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem; /* 修改字体大小 */
+    text-align: center;
+}
+
+.product-item p {
+    margin: 0.25rem 0;
+    font-size: 1.2rem; /* 修改字体大小 */
+    text-align: center;
+}
+
+.product-item span {
+    margin: 0.5rem 0;
+    font-size: 1.5rem; /* 修改字体大小 */
+    font-weight: bold;
+    text-align: center;
+}
+.product-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.product-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}

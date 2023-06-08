@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ZHL.TaTa.mapper.OrderMapper">
+    <!-- 插入订单数据：Integer insertOrder(Orders orders) -->
+    <insert id="insertOrder" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO `orders` (
+            uid, recv_name, recv_phone, recv_province, recv_city, recv_area, recv_address,
+            total_price,status, order_time, pay_time, create_user, create_time, update_user,
+            update_time
+        ) VALUES (
+                     #{uid}, #{recvName}, #{recvPhone}, #{recvProvince}, #{recvCity}, #{recvArea},
+                     #{recvAddress}, #{totalPrice}, #{status}, #{orderTime}, #{payTime}, #{createUser},
+                     #{createTime}, #{updateUser}, #{updateTime}
+                 )
+    </insert>
+    <!-- 插入订单商品数据：Integer insertOrderItem(OrderItem orderItem) -->
+    <insert id="insertOrderItem" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO order_detail (
+            oid, pid, name, image, price, num, create_user,
+            create_time, update_user, update_time
+        ) VALUES (
+                     #{oid}, #{pid}, #{name}, #{image}, #{price}, #{num}, #{createUser},
+                     #{createTime}, #{updateUser}, #{updateTime}
+                 )
+    </insert>
+</mapper>
