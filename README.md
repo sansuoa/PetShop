@@ -22,3 +22,5 @@
 ![image](https://github.com/sansuoa/PetShop/blob/master/picture/2.png)
 
 ![image](https://github.com/sansuoa/PetShop/blob/master/picture/3.png)
+
+很丑，不过应付设计作业啥的足够了，就这样.
