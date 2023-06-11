@@ -655,23 +655,23 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\a1361\Desktop\PetSale\src\main\resources\front\page" />
-      <recent name="C:\Users\a1361\Desktop\PetSale\src\main\resources\front\page\img" />
-      <recent name="C:\Users\a1361\Desktop\PetSale\src\main\resources\front\page\image" />
-      <recent name="C:\Users\a1361\Desktop\PetSale\src\main\resources\mapper" />
-      <recent name="C:\Users\a1361\Desktop\PetSale\src\main\resources\backend\page\comment" />
+      <recent name="C:\Users\a1361\Desktop\PetSale\src\main\resources\front\page\picture" />
+      <recent name="C:\Users\a1361\Desktop\PetSale\src\main\resources\front" />
+      <recent name="C:\Users\a1361\Desktop\正在完成的项目\瑞吉外卖\src\main\resources\backend\images\login" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ZHL.TaTa.service" />
       <recent name="com.itheima.reggie.service.impl" />
       <recent name="com.itheima.reggie.service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\a1361\Desktop\PetSale" />
       <recent name="C:\Users\a1361\Desktop\PetSale\src\main\resources\front\page" />
-      <recent name="C:\Users\a1361\Desktop\PetSale\src\main\resources\front\page\picture" />
-      <recent name="C:\Users\a1361\Desktop\PetSale\src\main\resources\front" />
-      <recent name="C:\Users\a1361\Desktop\正在完成的项目\瑞吉外卖\src\main\resources\backend\images\login" />
+      <recent name="C:\Users\a1361\Desktop\PetSale\src\main\resources\front\page\img" />
+      <recent name="C:\Users\a1361\Desktop\PetSale\src\main\resources\front\page\image" />
+      <recent name="C:\Users\a1361\Desktop\PetSale\src\main\resources\mapper" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ShopApplication (1)">
@@ -1094,22 +1094,22 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="570" y="82" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1686063476575" />
-    <state width="1483" height="178" key="GridCell.Tab.0.bottom" timestamp="1686455803696">
+    <state width="1483" height="178" key="GridCell.Tab.0.bottom" timestamp="1686456673143">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1483" height="178" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1686455803696" />
-    <state width="1483" height="178" key="GridCell.Tab.0.center" timestamp="1686455803696">
+    <state width="1483" height="178" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1686456673143" />
+    <state width="1483" height="178" key="GridCell.Tab.0.center" timestamp="1686456673143">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1483" height="178" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1686455803696" />
-    <state width="1483" height="178" key="GridCell.Tab.0.left" timestamp="1686455803696">
+    <state width="1483" height="178" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1686456673143" />
+    <state width="1483" height="178" key="GridCell.Tab.0.left" timestamp="1686456673143">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1483" height="178" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1686455803696" />
-    <state width="1483" height="178" key="GridCell.Tab.0.right" timestamp="1686455803696">
+    <state width="1483" height="178" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1686456673143" />
+    <state width="1483" height="178" key="GridCell.Tab.0.right" timestamp="1686456673143">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1483" height="178" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1686455803696" />
+    <state width="1483" height="178" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1686456673143" />
     <state width="1483" height="178" key="GridCell.Tab.1.bottom" timestamp="1686455803697">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -1154,10 +1154,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="153" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1686190725490" />
-    <state x="261" y="76" key="Vcs.Push.Dialog.v2" timestamp="1686454974543">
+    <state x="261" y="76" key="Vcs.Push.Dialog.v2" timestamp="1686456603432">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="261" y="76" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1686454974543" />
+    <state x="261" y="76" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1686456603432" />
     <state width="775" height="415" key="XDebugger.FullValuePopup" timestamp="1681913604165">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

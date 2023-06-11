@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50719
 File Encoding         : 65001
 
-Date: 2023-06-11 12:08:08
+Date: 2023-06-11 12:13:17
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -42,7 +42,7 @@ CREATE TABLE `address` (
 -- ----------------------------
 -- Records of address
 -- ----------------------------
-INSERT INTO `address` VALUES ('4', '1', 'controller', '北京市', '北京市市辖区', '东城区', '', '北京大学', '18649208896', '', '学校', '1', null, '2023-04-07 11:17:43', null, '2023-04-28 00:00:12');
+INSERT INTO `address` VALUES ('4', '1', 'controller', '北京市', '北京市市辖区', '东城区', '', '北京大学', '1145141919810', '', '学校', '1', null, '2023-04-07 11:17:43', null, '2023-04-28 00:00:12');
 
 -- ----------------------------
 -- Table structure for cart
@@ -148,8 +148,8 @@ CREATE TABLE `employee` (
 -- ----------------------------
 -- Records of employee
 -- ----------------------------
-INSERT INTO `employee` VALUES ('1', 'admin', 'admin', 'e10adc3949ba59abbe56e057f20f883e', '11451419198', '1', '120110200104163050', '1', '2023-04-06 00:00:00', '2023-04-06 11:13:14', '1', '1');
-INSERT INTO `employee` VALUES ('2', '博丽灵梦', '幻想乡', 'e10adc3949ba59abbe56e057f20f883e', '11451419198', '0', '120110200104163050', '1', '2023-04-06 11:13:48', '2023-05-28 19:57:49', '1', '1');
+INSERT INTO `employee` VALUES ('1', 'admin', 'admin', 'e10adc3949ba59abbe56e057f20f883e', '11451419198', '1', '1145141919810aaaaa', '1', '2023-04-06 00:00:00', '2023-04-06 11:13:14', '1', '1');
+INSERT INTO `employee` VALUES ('2', '博丽灵梦', '幻想乡', 'e10adc3949ba59abbe56e057f20f883e', '11451419198', '0', '1145141919810aaaaa', '1', '2023-04-06 11:13:48', '2023-05-28 19:57:49', '1', '1');
 
 -- ----------------------------
 -- Table structure for leave_condition
