@@ -11,6 +11,7 @@ Target Server Version : 50719
 File Encoding         : 65001
 
 Date: 2023-06-11 12:13:17
+这是数据库，用navicat来创建
 */
 
 SET FOREIGN_KEY_CHECKS=0;
