@@ -1,5 +1,5 @@
 # PetShop
-以SpringBoot,Mybatis-plus为后端，前端html三件套(有点框架)完成的宠物商城设计，目前还在不断更改，当个参考还是可以的,注意把PetShop改成PetDale
+以SpringBoot,Mybatis-plus为后端，前端html三件套(有点框架)完成的宠物商城设计，当个参考还是可以的。
 
 
 (说真的，淘宝买这么贵啊，做完后台管理不想搞了问问价钱，byd我还是自己做吧，属实是鞭策自己了)
