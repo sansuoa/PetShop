@@ -24,3 +24,8 @@
 ![image](https://github.com/sansuoa/PetShop/blob/master/picture/3.png)
 
 很丑，不过应付设计作业啥的足够了，记得把代码里的毕业设计.sql创建一下，运行中找问题吧。
+
+有问题的话，推荐一个github项目：https://github.com/sansuoa/ChatGPT-Next-Web-1        
+这个很强，按着指南操作，相当于15块钱买个老师，不需要"大佬大佬，这问题是什么啊？"
+
+假如有问题，请先问问神奇的chatgpt吧，当然，因为是个人项目，所以假如你发现了我没有完全删掉的个人信息，或者实在问gpt问不出来，也欢迎发邮件到a13612069860@163.com来提醒我或者问我问题。就是这样，希望能够给你的项目设计做出一点贡献。
